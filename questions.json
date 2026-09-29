@@ -1,0 +1,218 @@
+{
+  "JavaScript": [
+    {
+      "question": "What is the output of typeof 10?",
+      "options": ["string", "number", "boolean", "object"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which keyword declares a constant in JavaScript?",
+      "options": ["var", "let", "const", "static"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which method adds an item to the end of an array?",
+      "options": ["push()", "pop()", "shift()", "slice()"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which symbol is used for strict equality?",
+      "options": ["=", "==", "===", "!="],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which function prints output in the browser console?",
+      "options": ["print()", "console.log()", "display()", "write()"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which keyword is used to define a function?",
+      "options": ["function", "def", "fun", "method"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which value represents no value in JavaScript?",
+      "options": ["null", "zero", "false", "empty"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which operator means logical AND?",
+      "options": ["||", "&&", "!", "&"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which method converts JSON text into a JavaScript object?",
+      "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "JSON.object()"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Method",
+        "Document Order Model",
+        "Digital Object Model"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+
+  "Python": [
+    {
+      "question": "Which keyword is used to define a function in Python?",
+      "options": ["function", "def", "fun", "define"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which data type stores multiple items in order?",
+      "options": ["list", "int", "bool", "float"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which symbol is used for comments in Python?",
+      "options": ["//", "#", "/*", "--"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which function displays output in Python?",
+      "options": ["echo()", "print()", "display()", "write()"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which collection does not allow duplicate values?",
+      "options": ["list", "tuple", "set", "string"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What type of value is 10.5?",
+      "options": ["int", "float", "string", "boolean"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which keyword is used for a condition?",
+      "options": ["if", "when", "check", "condition"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which function returns the length of a list?",
+      "options": ["size()", "count()", "len()", "length()"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which keyword creates a class in Python?",
+      "options": ["object", "class", "struct", "new"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which value represents a Boolean true?",
+      "options": ["true", "TRUE", "True", "1true"],
+      "correctAnswer": 2
+    }
+  ],
+
+  "Java": [
+    {
+      "question": "Which keyword is used to create a class in Java?",
+      "options": ["class", "Class", "define", "object"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which method is the entry point of a Java program?",
+      "options": ["start()", "main()", "run()", "execute()"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which data type stores whole numbers?",
+      "options": ["float", "int", "char", "boolean"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which keyword creates an object?",
+      "options": ["create", "object", "new", "make"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which symbol ends a Java statement?",
+      "options": [".", ":", ";", ","],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which keyword is used for inheritance?",
+      "options": ["extends", "inherits", "parent", "superclass"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which type stores true or false?",
+      "options": ["boolean", "bool", "bit", "logical"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which keyword prevents a variable from changing?",
+      "options": ["constant", "final", "static", "fixed"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Java source files normally use which extension?",
+      "options": [".js", ".py", ".java", ".jav"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which keyword refers to the current object?",
+      "options": ["self", "this", "current", "object"],
+      "correctAnswer": 1
+    }
+  ],
+
+  "C++": [
+    {
+      "question": "Which symbol starts a single-line comment in C++?",
+      "options": ["#", "//", "/*", "--"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which function is the entry point of a C++ program?",
+      "options": ["start()", "main()", "run()", "begin()"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which header is commonly used for input and output?",
+      "options": ["<stdio.h>", "<iostream>", "<string.h>", "<input>"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which data type stores whole numbers?",
+      "options": ["float", "int", "char", "double"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which keyword is used to create a class?",
+      "options": ["class", "struct", "object", "define"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which operator is used to access members through an object?",
+      "options": [".", "#", "@", ":"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which keyword creates a constant variable?",
+      "options": ["fixed", "constant", "const", "final"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which extension is commonly used for C++ source files?",
+      "options": [".cpp", ".cplus", ".java", ".ccs"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which concept allows the same function name with different parameters?",
+      "options": ["Inheritance", "Overloading", "Encapsulation", "Compilation"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which operator is used for logical AND?",
+      "options": ["||", "&&", "!", "&"],
+      "correctAnswer": 1
+    }
+  ]
+}

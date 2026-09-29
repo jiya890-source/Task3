@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Technical Assessment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Language Selection -->
+        <section id="languagePage" class="card">
+            <h1>Technical Assessment</h1>
+            <p class="subtitle">
+                Select your preferred programming languages
+            </p>
+
+            <div class="language-list">
+                <label class="language-option">
+                    <input type="checkbox" value="JavaScript">
+                    <span>JavaScript</span>
+                </label>
+
+                <label class="language-option">
+                    <input type="checkbox" value="Python">
+                    <span>Python</span>
+                </label>
+
+                <label class="language-option">
+                    <input type="checkbox" value="Java">
+                    <span>Java</span>
+                </label>
+
+                <label class="language-option">
+                    <input type="checkbox" value="C++">
+                    <span>C++</span>
+                </label>
+            </div>
+
+            <p id="languageError" class="error"></p>
+
+            <button id="startBtn" class="primary-btn">
+                Start Assessment
+            </button>
+        </section>
+
+
+        <!-- Assessment Page -->
+        <section id="assessmentPage" class="card hidden">
+
+            <div class="top-bar">
+                <span id="questionNumber">Question 1</span>
+                <span id="scoreDisplay">Score: 0</span>
+            </div>
+
+            <div class="progress-container">
+                <div id="progressBar"></div>
+            </div>
+
+            <h2 id="questionText"></h2>
+
+            <div id="optionsContainer"></div>
+
+            <p id="answerError" class="error"></p>
+
+            <div class="navigation">
+                <button id="prevBtn" class="secondary-btn">
+                    Previous
+                </button>
+
+                <button id="nextBtn" class="primary-btn">
+                    Next
+                </button>
+
+                <button id="submitBtn" class="submit-btn hidden">
+                    Submit Test
+                </button>
+            </div>
+
+        </section>
+
+
+        <!-- Result Page -->
+        <section id="resultPage" class="card hidden">
+
+            <h1>Assessment Result</h1>
+
+            <div class="result-box">
+                <p>Your Score</p>
+                <h2 id="finalScore"></h2>
+            </div>
+
+            <p id="resultMessage"></p>
+
+            <!-- Resume Upload -->
+            <div id="resumeSection" class="resume-section hidden">
+
+                <h3>Congratulations!</h3>
+
+                <p>
+                    You have qualified for the next stage.
+                    Please upload your resume.
+                </p>
+
+                <form id="resumeForm" action="upload.php" method="POST"
+                      enctype="multipart/form-data">
+
+                    <input
+                        type="file"
+                        id="resume"
+                        name="resume"
+                        accept=".pdf,.doc,.docx"
+                    >
+
+                    <p id="fileError" class="error"></p>
+
+                    <button type="submit" class="primary-btn">
+                        Upload Resume
+                    </button>
+
+                </form>
+
+            </div>
+
+            <button id="retryBtn" class="secondary-btn">
+                Try Again
+            </button>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
